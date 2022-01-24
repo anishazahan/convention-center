@@ -22,6 +22,9 @@ h1,h2,h3,h4,h5,h6{
 :root{
     --font-color:#9e0e5d;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -45,6 +48,42 @@ ul>li>a{
       font-family: 'Chakra Petch', sans-serif;
       font-weight: 800;
       color: #4F0E0E!important;
+}
+
+
+.carousel-background{
+    height: calc(100vh-80px);
+}
+    .carousel-img img{
+
+
+}
+.caurosel-heading{
+    font-weight: bold;
+    color: white;
+}
+.caurosel-btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: #e97db8;
+    color: white;
+    font-weight: 600;
+  
+
+}
+.caurosel-paragaraf{
+    margin-bottom: 30px;
+}
+.carouselcaption{
+    margin-top: -200px;
+
+}
+.toast-body{
+    border-left: 5px solid var(--font-color);
+}
+.toast i{
+    color: var(--font-color);
+    margin-right: 10px;
 }
 
 
