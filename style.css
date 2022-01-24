@@ -164,8 +164,8 @@ ul>li>a{
 }
 .customer-says h2{
     color: var(--font-color);
-    font-weight: bold;
-    margin-bottom: 7%;
+    font-weight: 500;
+    margin-bottom: 5%;
     text-align: center;
     position: relative;
 }
@@ -209,25 +209,57 @@ ul>li>a{
 /* .................coomom style,,,,,,,,,,,,,, */
 
 
+.accordian-section{
+
+}
+
+.accordian-section h2{
+      
+        font-weight: bold;
+        margin-bottom: 8%;
+        margin-top: 5%;
+        text-align: center;
+}
+.accordian-img{
+    height: 70%;
+}
+
+
+
+
+
+/* .................booking style,,,,,,,,,,,,,, */
+
+.book-heading{
+    color: var(--font-color);
+}
+.booking input,
+.booking textarea{
+    display: block;
+    border-bottom: 2px solid var(--font-color)!important;
+    border: 0;
+    outline: none;
+}
+.booking button{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: #ee9fca;
+    font-weight: 600;
+    margin-top: 25px;
+}
 
 
 
 
 
 
-/* .................coomom style,,,,,,,,,,,,,, */
 
 
 
 
 
-
-
-
-
-
-
-/* .................coomom style,,,,,,,,,,,,,, */
+/* .................footer style,,,,,,,,,,,,,, */
 
 
 
@@ -240,11 +272,59 @@ ul>li>a{
 
 /* .................meadia style,,,,,,,,,,,,,, */
 
+@media (max-width:1199px){
+    .accordin-items{
+        margin-top: -60px;
+    }
+    .accordian-section h2{
+        margin-bottom: 15%;
+    }
+    .booking button{
+        margin-top: 5px;
+    }
+    .book-heading{
+        margin-bottom: 0;
+    }
+    .booking textarea{
+        width: 95%;
+    }
+  
+}
+
+
 @media (max-width:991px){
+
+    .accordin-items{
+       margin-bottom: 7%;
+    }
+    .accordian-header{
+        margin-bottom: 10%;
+    }
+    .accordian-img{
+        
+        display: none;
+    }
+    
+    
+    .booking button{
+        margin-top: 25px;
+    }
+    .book-heading{
+        margin-top: 15px;
+    }
+    .booking-img{
+       width: 80%;
+       height: 80%;
+       margin-bottom: 10px;
+    }
     .card-box{
       
         width: 70%;
         margin:  10px auto;
+    }
+    .img-section{
+        width: 80%;
+        
     }
 }
 
@@ -262,5 +342,15 @@ ul>li>a{
         margin: auto!important;
         margin-top: 20px !important;
     }
+    .img-section{
+        width: 80%;
+        margin: auto;
+    }
+    
+        
     
 }
+@media (max-width:575px){
+   
+}
+
