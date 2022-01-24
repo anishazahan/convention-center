@@ -262,7 +262,18 @@ ul>li>a{
 /* .................footer style,,,,,,,,,,,,,, */
 
 
-
+footer{
+    background-color: #142F43;
+    
+}
+footer i{
+    background-color: var(--font-color);
+    padding: 5px 6px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+   
+}
 
 
 
