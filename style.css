@@ -68,7 +68,7 @@ ul>li>a{
 .content-section h2{
     font-weight: bold;
     color:#9e0e5d ;
-    margin-top: 10%;
+    margin-top: 8%;
    
 
 }
@@ -151,6 +151,70 @@ ul>li>a{
 
 
 
+/* .................customer says style,,,,,,,,,,,,,, */
+
+
+.customer-says{
+    margin-bottom: 7%;
+}
+.customer-says img{
+    width: 20%;
+    
+    margin: 15px auto;
+}
+.customer-says h2{
+    color: var(--font-color);
+    font-weight: bold;
+    margin-bottom: 7%;
+    text-align: center;
+    position: relative;
+}
+.customer-says h2::after{
+    position: relative;
+    content: '';
+    border-bottom: 1px solid #000;
+    left: 50%;
+    top: 20px;
+    height: 50px;
+    width: 3px;
+}
+.card-box{
+   
+    background-color: #f8eff4;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+.customer-says p{
+    font-size: 14px;
+    color: black;
+}
+.customer-says h6{
+    font-weight: bold;
+    color: var(--font-color);
+    margin-top: 10px;
+}
+.customer-says span{
+    font-size: 12px;
+    color: var(--font-color);
+}
+.card-box-p{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+
+/* .................coomom style,,,,,,,,,,,,,, */
+
+
+
+
+
+
+
+
 /* .................coomom style,,,,,,,,,,,,,, */
 
 
@@ -161,13 +225,6 @@ ul>li>a{
 
 
 
-/* .................coomom style,,,,,,,,,,,,,, */
-
-
-
-
-
-
 
 
 /* .................coomom style,,,,,,,,,,,,,, */
@@ -181,16 +238,29 @@ ul>li>a{
 
 
 
+/* .................meadia style,,,,,,,,,,,,,, */
 
-/* .................coomom style,,,,,,,,,,,,,, */
+@media (max-width:991px){
+    .card-box{
+      
+        width: 70%;
+        margin:  10px auto;
+    }
+}
 
 
+@media (max-width:767px) {
 
-
-
-
-
-
-
-
-/* .................coomom style,,,,,,,,,,,,,, */
+    .card-item{
+        width: 70%!important;
+        margin: auto!important;
+    }
+    .card-item2{
+        padding: 0 !important;
+        width: 70%!important;
+        height: 95%!important;
+        margin: auto!important;
+        margin-top: 20px !important;
+    }
+    
+}
