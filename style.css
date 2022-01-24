@@ -26,11 +26,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
-
-
-
 /* .................coomom style,,,,,,,,,,,,,, */
 
 .menubar{
@@ -87,9 +82,6 @@ ul>li>a{
 }
 
 
-
-
-
 /* .................top-style,,,,,,,,,,,,,, */
 
 
@@ -131,8 +123,6 @@ ul>li>a{
 }
 
 
-
-
 /* .................pakage style,,,,,,,,,,,,,, */
 
 .pakages{
@@ -144,13 +134,7 @@ ul>li>a{
     margin-bottom: 14%;
     position: relative;
 }
-/* .pakage-heading::after{
-    content: '';
-    border-bottom: 2px solid var(--font-color);
-    position: absolute;
-    left: 50;
-    top: 40px;
-} */
+
 .card-item h1,h4{
     color: #1a9cb6;
 
@@ -182,16 +166,7 @@ ul>li>a{
 }
 
 
-
-
-
-
-
-
-
-
 /* .................customer says style,,,,,,,,,,,,,, */
-
 
 .customer-says{
     margin-bottom: 7%;
@@ -240,17 +215,7 @@ ul>li>a{
     margin: auto;
 }
 
-
-
-
-
-
 /* .................coomom style,,,,,,,,,,,,,, */
-
-
-.accordian-section{
-
-}
 
 .accordian-section h2{
       
@@ -262,10 +227,6 @@ ul>li>a{
 .accordian-img{
     height: 70%;
 }
-
-
-
-
 
 /* .................booking style,,,,,,,,,,,,,, */
 
@@ -289,15 +250,6 @@ ul>li>a{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* .................footer style,,,,,,,,,,,,,, */
 
 
@@ -313,12 +265,6 @@ footer i{
     border-radius: 5px;
    
 }
-
-
-
-
-
-
 
 /* .................meadia style,,,,,,,,,,,,,, */
 
